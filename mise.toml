@@ -1,0 +1,4 @@
+[tools]
+java = "temurin-8"
+jbang = "latest"
+
