@@ -10,9 +10,9 @@ To start the Jython interpreter or run a Jython script via the interpreter, use 
 
 * `jbang run jython-cli@jython <jython-script>.py`
 
-If an older version of Jython is required, use the option `-Djbang.jython.version=<version>` to specify the version to use.
+If an older version of Jython is required, the version to be used can be specified as follows:
 
-* `jbang run -Djbang.jython.version=2.7.2 jython-cli@jython <jython-script>.py`
+* `jbang run jython-cli:2.7.2@jython <jython-script>.py`
 
 ## App
 
